@@ -38,7 +38,7 @@ module.exports = {
     proxy: {
       '/api': {
         changeOrigin: true,
-        target: 'http://localhost/wicked-sales/server/public'
+        target: 'http://localhost/posterizer/server/public'
       }
     }
   }
