@@ -1,14 +1,14 @@
-# wicked-sales
+# Posterizer
 
-A full stack LAMP & React shopping cart app.
+Posterizer is a full stack LAMP & React shopping cart app demo.
 
-## Introduction
+## About the store
 
 For this project, you will be building a single-page React application and a dynamic PHP API.
 
 ## Getting Started
 
-1. Fork this repository to your GitHub account and clone the fork to your local `lfz` directory.
+1. Fork this repository to your GitHub account and clone the fork to your local directory.
 2. Check out a `dev` branch and push it to `origin`.
     ```
     git push origin dev
@@ -17,21 +17,21 @@ For this project, you will be building a single-page React application and a dyn
     ```
     npm install
     ```
-4. Add the `wicked-sales.localhost` site to Apache by copying the provided virtual host configuration in the `server` directory to `/etc/apache2/sites-available`.
+4. Add the `posterizer.localhost` site to Apache by copying the provided virtual host configuration in the `server` directory to `/etc/apache2/sites-available`.
     ```
-    sudo cp server/wicked-sales.localhost.conf /etc/apache2/sites-available
+    sudo cp server/posterizer.localhost.conf /etc/apache2/sites-available
     ```
-5. Enable the `wicked-sales.locahost` site.
+5. Enable the `posterizer.locahost` site.
    ```
-   sudo a2ensite wicked-sales.localhost
+   sudo a2ensite posterizer.localhost
    ```
 6. Restart the Apache web server.
    ```
    sudo service apache2 restart
    ```
-7. Test that the virtual host is working by sending an HTTP request to `http://wicked-sales.localhost`. You should receive `200 OK` response containing an HTML document with the title of "Wicked Sales".
+7. Test that the virtual host is working by sending an HTTP request to `http://posterizer.localhost`. You should receive `200 OK` response containing an HTML document with the title of "Posterizer".
    ```
-   http get http://wicked-sales.localhost
+   http get http://posterizer.localhost
    ```
 
 ## Features
