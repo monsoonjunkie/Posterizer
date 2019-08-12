@@ -11,6 +11,9 @@
     height: 550px;
     text-align: center
 }
+.itemContainer:hover{
+    cursor: pointer;
+}
 .product{
     font-size: 1em;
 }
