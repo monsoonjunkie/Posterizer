@@ -2,9 +2,18 @@
 
 Posterizer is a full stack LAMP & React shopping cart app demo.
 
+## Techonologies Used
+
+### Front-end
+React.js, JavaScript, HTML5, CSS3, React, Bootstrap
+
+### Back-end
+
+PHP, MySQL, phpMyAdmin
+
 ## About the store
 
-For this project, you will be building a single-page React application and a dynamic PHP API.
+The store sells various posters from video games, movies, and comics. Users can pick and add, remove, and checkout items from their cart.
 
 ## Getting Started
 
