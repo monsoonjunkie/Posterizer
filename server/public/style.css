@@ -143,3 +143,6 @@
     background-color: #e3f4ef;
     padding: 10px;
 }
+.shopclick:hover{
+    cursor: pointer;
+}
