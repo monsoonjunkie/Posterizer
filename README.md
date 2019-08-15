@@ -37,3 +37,4 @@ $ npm run dev
 ```
 5. Go to ```localhost:3000``` and the store will be up and running. 
 
+ 
