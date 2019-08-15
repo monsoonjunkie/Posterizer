@@ -28,7 +28,7 @@ $ git clone https://github.com/[user_name]/posterizer.git
 ```
 $ npm install
 ```
-3. Create a database titled posterizer in phpMyAdmin and import the posterizer.sql file
+3. Create a database titled record_repo in phpMyAdmin and import the posterizer.sql file
 
 4. Initiate the dev server
     * Make sure to have the Apache and MySQL service running.
