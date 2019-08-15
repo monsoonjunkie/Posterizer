@@ -12,7 +12,7 @@ class Header extends React.Component {
         <i className="col-4 fab fa-hornbill logo p-2"></i>
         <div className="col-4 row justify-content-end ">
           <div className="items p-2 shoppingCart">{itemCount} items</div>
-          <i className=" fas fa-shopping-cart shoppingCart p-2 shopclick" onClick={() => this.props.setView('cart', {})}></i>
+          <i className=" fas fa-shopping-cart shoppingCart p-2 shopicon" onClick={() => this.props.setView('cart', {})}></i>
         </div>
 
       </div>
